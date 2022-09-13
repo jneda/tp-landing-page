@@ -3,6 +3,9 @@
 :root {
   --main-color: #98f1c1;
   --gradient-target-color: #fafafa;
+
+  --text-color: #1b1a1a;
+
   --gray-bg-color: #f7f7f7;
   --gray-fg-color: #888888;
   /*
@@ -23,6 +26,7 @@
 
 html {
   font-family: "Roboto", sans-serif;
+  color: var(--text-color);
 }
 
 a {
@@ -208,6 +212,7 @@ header img {
 /* Footer */
 
 footer {
+  background-color: var(--gray-bg-color);
   border-top: 1px solid var(--gray-fg-color);
   padding-bottom: 0.4rem;
 }
@@ -223,6 +228,10 @@ footer a {
 /* Règles pour affichage desktop */
 
 @media screen and (min-width: 600px) {
+
+  #hero {
+    gap: 2rem;
+  }
 
   #details ul {
     width: 40rem;
