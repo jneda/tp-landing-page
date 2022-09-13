@@ -236,4 +236,8 @@ footer a {
   #social-proof ul {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  #recall-to-action button {
+    max-width:12rem;
+  }
 }
