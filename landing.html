@@ -14,49 +14,63 @@
 </head>
 
 <body>
+  <!-- Header (logo) -->
   <header>
     <img src="img/LOGO_trottistyle.png" alt="Logo TrottiStyle">
   </header>
+
+  <!-- Contenu -->
   <main>
-    <section id="hero">
-      <div id="header">
-        <h1>Voyage avec style</h1>
-        <p>Personnalise ton déplacement</p>
-      </div>
+    <!-- div pour délimiter le dégradé-->
+    <div id="gradient">
 
-      <div id="cta">
-        <label for="user-email"></label>
-        <input type="email" placeholder="mon.mail@toto.com">
-        <button>Je me lance</button>
-      </div>
+      <!-- Hero -->
+      <section id="hero">
+        <img src="img/trotti.png" alt="Ta trottinette électrique personnalisée">
 
-      <img src="img/trotti.png" alt="Ta trottinette électrique personnalisée">
-    </section>
-    <section id="details">
-      <ul>
-        <li class="detail">
-          <img src="img/brick.png" alt="Icône jeu de construction">
-          <div class="detail-content">
-            <h2>PERSONNALISE ET AFFIRME-TOI</h2>
-            <p>Roues, cadre, logo... change tout ce que tu veux, fais-en un objet unique !</p>
+        <div id="cta">
+          <div id="cta-text">
+            <h1>Voyage avec style</h1>
+            <p>Personnalise ton déplacement</p>
           </div>
-        </li>
-        <li class="detail">
-          <img src="img/time.png" alt="Icône rapidité">
-          <div class="detail-content">
-            <h2>BOUGE RAPIDEMENT</h2>
-          <p>Batterie de technologie TESLA pour que tu files comme une étoile.</p>
-          </div>          
-        </li>
-        <li class="detail">
-          <img src="img/social.png" alt="Icône sociabilité">
-          <div class="detail-content">
-            <h2>REJOINS UNE COMMUNAUTÉ</h2>
-          <p>dynamique, de passionnés comme toi.</p>
-          </div>          
-        </li>
-      </ul>
-    </section>
+
+          <div id="cta-actions">
+            <label for="user-email"></label>
+            <input type="email" placeholder="mon.mail@toto.com">
+            <button>Je me lance</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Arguments -->
+      <section id="details">
+        <ul>
+          <li class="detail">
+            <img src="img/brick.png" alt="Icône jeu de construction">
+            <div class="detail-content">
+              <h2>PERSONNALISE ET AFFIRME-TOI</h2>
+              <p>Roues, cadre, logo... change tout ce que tu veux, fais-en un objet unique !</p>
+            </div>
+          </li>
+          <li class="detail">
+            <img src="img/time.png" alt="Icône rapidité">
+            <div class="detail-content">
+              <h2>BOUGE RAPIDEMENT</h2>
+              <p>Batterie de technologie TESLA pour que tu files comme une étoile.</p>
+            </div>
+          </li>
+          <li class="detail">
+            <img src="img/social.png" alt="Icône sociabilité">
+            <div class="detail-content">
+              <h2>REJOINS UNE COMMUNAUTÉ</h2>
+              <p>dynamique, de passionnés comme toi.</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Social proof-->
     <section id="social-proof">
       <ul>
         <li>
@@ -73,13 +87,17 @@
         </li>
       </ul>
     </section>
+
+    <!-- Rappel du CTA -->
     <section id="recall-to-action">
       <h2>Unique comme toi</h2>
-      <button>Je me lance</button>
+      <button>Mais trop !</button>
     </section>
   </main>
+
+  <!-- Footer (mention légales etc.)-->
   <footer>
-    <p>Politique de confidentialité</p>
+    <a href="#">Politique de confidentialité</a>
   </footer>
 </body>
 
